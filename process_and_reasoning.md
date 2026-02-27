@@ -119,7 +119,7 @@ I started by isolating all of the numerical features. Then, I analyzed each feat
 
 ## Relationships and Ratios
 ### Evaluating Success:
-_see plots:_ 'phone_vs_block_apps.png', 'phone_vs_block_quote.png', 'phone_vs_block_contact.png', 'phone_vs_block_nosuccess.png'
+```_see plots:_ 'phone_vs_block_apps.png', 'phone_vs_block_quote.png', 'phone_vs_block_contact.png', 'phone_vs_block_nosuccess.png'```
 I began to explore the minority of records in the data that had any sort of status [CONTACT, QUOTE, APPLICATION]. Of the 141,930 total records, only 11,360 made it to the CONTACT status. Of those, 3,109 made it to the QUOTE status. Of those, 1,771 actually submitted an APPLICATION. When plotting just the records with an application, we can see the distribution of PHONE_SCORE to BLOCK_SCORE. We want to see the majority of records exist in the bottom right, High phone with low block. This is pretty close to the reality, albeit the trend of the data is uniformly chaotic, well dispersed in the area.
 
 When I expand to looking at all QUOTE records, the same pattern emerges. The majority of the data is consistent / near identical to the application records.
