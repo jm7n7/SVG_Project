@@ -76,14 +76,14 @@ Upon receiving the dataset with no dictionary, my next move is to create the Dat
 
 ## TLDR of the Data Dictionary
 ### Thoughts
--There are a couple of fields that, even through data context, I am still not 100% sure on what they represent. In a real world scenario for which I am an employee working at SVG, I would try to look up any internal documents to identify what the feature represents, or I would simply ask a coworker or manager to see if they were familiar.
--The biggest discovery is that the 'predictive_score' outlined in the project document is not one singular feature, but rather four individual scores [email, address, phone, block]. This definetly changes any sort of singular approach I had in mind for model performance validation, comparrison, and improvement suggestion. Assuming the salesperson is only going to perform calls, we can isolate the phone and block scores and disregard the email and address scores.
+- There are a couple of fields that, even through data context, I am still not 100% sure on what they represent. In a real world scenario for which I am an employee working at SVG, I would try to look up any internal documents to identify what the feature represents, or I would simply ask a coworker or manager to see if they were familiar.
+- The biggest discovery is that the 'predictive_score' outlined in the project document is not one singular feature, but rather four individual scores [email, address, phone, block]. This definetly changes any sort of singular approach I had in mind for model performance validation, comparrison, and improvement suggestion. Assuming the salesperson is only going to perform calls, we can isolate the phone and block scores and disregard the email and address scores.
 
 ### Fields with NAN values:
--**Gender**             (63194)
--**Phone Type**         (28527)
--**Treatment Group**    (327)
--**Lead Cost**          (43885)
+- **Gender**             (63194)
+- **Phone Type**         (28527)
+- **Treatment Group**    (327)
+- **Lead Cost**          (43885)
 I will have to address these in my data cleaning/exploration step.
 
 ### Planned explorations:

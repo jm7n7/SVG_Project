@@ -5,7 +5,7 @@ Joseph Marinello
 
 Thank you for the opportunity to work on this assessment. Per the project instructions, I strictly adhered to the recommended 4-hour time limit. Because I believe strong predictive models must be built on a deep understanding of the underlying data, I focused my time on problem breakdown, data cleaning, and exploratory data analysis (EDA).
 
-I found a natural stopping point after completing my initial exploratory phase. Rather than rushing to implement a poorly optimized model at the last minute, I have outlined my findings, a formal solution design based the EDA I was able to complete, and a roadmap for the subsequent steps I would take given more time.
+I found a natural stopping point after completing my initial exploratory phase. Rather than rushing to implement a poorly optimized model at the last minute, I have outlined my findings, a formal solution design based on the EDA I was able to complete, and a roadmap for the subsequent steps I would take given more time.
 
 ### Project Workflow & File Directory
 
